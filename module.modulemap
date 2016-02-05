@@ -1,0 +1,6 @@
+module CCouchbase [system] {
+    header  "/usr/include/libcouchbase/couchbase.h"
+
+    export *
+    link "couchbase"
+}
